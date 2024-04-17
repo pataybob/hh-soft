@@ -1,7 +1,7 @@
 @use 'sass:math';
 
 // Container
-$containerWidth : 1080px ; // Ширина контейнера
+$containerWidth : 1350px ; // Ширина контейнера
 $ContainerPadding : 20px ; // Отступы внутри контейнера
 
 // Adaptive Breakpoint
@@ -11,9 +11,6 @@ $breakpoint768: 767.98px +px; // 768px
 $breakpoint480: 479.98px +px; // 480px
 
 // Colors
-$whiteColor: #fff;
-$blackColor: #000;
-$primaryColor : #fff;
-$secondaryColor : #fff;
-$primaryDark : #fff;
-$primary : #fff;
+$primaryColor : #1A1A1A;
+$secondaryColor :#FFFFFF;
+$lightVioletColor: #9166F0;
