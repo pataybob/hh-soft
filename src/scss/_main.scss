@@ -137,8 +137,6 @@
 
                 }
             }
-    
-        
     }
     .skills{
         display: flex;
@@ -178,6 +176,113 @@
                         transition: 0.9s ease;
 
                     }
+                }
+            }
+        }
+    }
+    .cases{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        gap: 50px;
+        .cases__head{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                font-size: 48px;
+                font-weight: 700;
+
+            }
+            .cases{
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+                a{
+                    padding: 17px 26px;
+                    border: 1px solid #BDBDBD;
+                    border-radius: 5px;
+                    color:#BDBDBD;
+                    background: transparent;
+                    &:nth-child(1)
+                    {
+                        color:#FFFFFF;
+                        background: #9166F0;
+                    }
+                }
+                    
+            }
+        }
+        .cases__body{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .left__side , .right__side{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .case__card{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 0;
+                    max-width: 95%;
+                    background: #FFFFFF;
+                    border-radius: 10px;
+                    .content{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        padding: 20px;
+                        max-height: 430px;
+                        h1{
+                            font-size: 22px;
+                            font-weight: 500;
+                            max-width: 90%;
+                        }
+                        p{
+                            font-size: 16px;
+                            font-weight: 300;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 3px;
+                            span{
+                                color: #BDBDBD;
+                            }
+                        }
+                        .button{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            gap: 20px;
+                            a{
+                                color: #9166F0;
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .cases__footer{
+            .button{
+            
+                background: transparent;
+                border: 1px solid #9166F0;
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;  
+                padding: 20px 34px;
+                border-radius: 5px;  
+                a{
+                    color: #9166F0;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 130%;
                 }
             }
         }
