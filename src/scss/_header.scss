@@ -2,7 +2,7 @@ header{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     .header__logo{
 
@@ -11,7 +11,7 @@ header{
         .nav{
             .navbar{
                 display: flex;
-                gap: 30px;
+                gap: 40px;
                 li{
                     font-size: 14px;
                     font-weight: 300;

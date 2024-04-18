@@ -1,20 +1,78 @@
-.wrapper {
+.wrapper .main__wrapper {
   background: url(../images/background/bg.png) center no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
+}
+.wrapper .main__wrapper .container main {
+  margin-top: 130px;
+}
+.wrapper .main__wrapper .container main .main__container {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10vh;
+}
+.wrapper .main__wrapper .container main .main__container h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+.wrapper .main__wrapper .container main .main__container p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 160%;
+  max-width: 70%;
+}
+.wrapper .main__wrapper .container main .main__container .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.wrapper .main__wrapper .container main .main__container .buttons .project {
+  background: linear-gradient(to left, #9166F0, #210C51);
+  width: 260px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.wrapper .main__wrapper .container main .main__container .buttons .project a {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.wrapper .main__wrapper .container main .main__container .buttons .course {
+  background: transparent;
+  width: 260px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #9166F0;
+}
+.wrapper .main__wrapper .container main .main__container .buttons .course a {
+  color: #9166F0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 130%;
 }
 
 header {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 header .header__nav .nav .navbar {
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
 header .header__nav .nav .navbar li {
   font-size: 14px;
