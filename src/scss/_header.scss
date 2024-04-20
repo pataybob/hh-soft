@@ -15,6 +15,11 @@ header{
                 li{
                     font-size: 14px;
                     font-weight: 300;
+                    color: #FFFFFF;
+                    &:hover{
+                        transition: 0.3s ease;
+                        color: #9166F0;
+                    }
                 }
             }
         }
@@ -31,6 +36,15 @@ header{
                 position: relative;
                 right: 30px;
             }
+            a{
+                color: #FFFFFF;
+                img{
+                    &:hover{
+                        transition: 0.3s ease;
+                        filter: blur(1px);
+                    }
+                }
+            }
         }
         display: flex;
         flex-direction: row;
@@ -40,6 +54,12 @@ header{
             a{
                 font-size: 20px;
                 font-weight: 700;
+                color: #FFFFFF;
+                &:hover{
+                    transition: 0.3s ease;
+                    color: #9166F0;
+                }
+                
             }
         }
     }
