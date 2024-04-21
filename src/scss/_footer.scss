@@ -1,0 +1,144 @@
+footer{
+    height: 240px;
+    background: #010423;
+    .footer__container{
+        
+        max-width: 1350px;
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 50px;
+        .after{
+            display: flex;
+            flex-direction: column;
+            .top__side{
+                margin-top: 50px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .footer__socials{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    gap: 30px;
+                    .number{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        p,a{
+                            color: #FFF;
+                        }
+                        p{
+                            color: #B6B6B6;
+                            font-size: 14px;
+                        }
+                        a{
+                            font-size: 20px;
+                            font-weight: 700;
+                        }
+                    }
+                    .mail{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        p,a{
+                            color: #FFF;
+                        }
+                        p{
+                            color: #B6B6B6;
+                            font-size: 14px;
+                        }
+                        a{
+                            font-size: 20px;
+                            font-weight: 700;
+                        }
+                    }
+    
+                }
+                .socials__bar{
+                    max-width: 110px;
+                    display: flex;
+                    flex-direction: row;
+                    :nth-child(2){
+                        position: relative;
+                        right: 15px;
+                    }
+                    :nth-child(3){
+                        position: relative;
+                        right: 30px;
+                    }
+                    a{
+                        color: #FFFFFF;
+                        img{
+                            &:hover{
+                                transition: 0.3s ease;
+                                filter: blur(1px);
+                            }
+                        }
+                    }
+                }
+                .footer__nav{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 30px;
+                    .left__side{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        a{
+                            color: #FFF;
+                        }
+                    }
+                    .right__side{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        a{
+                            color: #FFF;
+                        }
+                    }
+                }
+                // &::after{
+                //     margin-top: 25px;
+                //     position: relative;
+                //     content: " ";
+                //     height: 1px;
+                //     width: 100%;
+                //     background: #D9D9D9;
+                //     display: block;
+                // }
+            }
+                     &::after{
+                    margin-top: 120px;
+                    position: absolute;
+                    left: 0;
+                    content: " ";
+                    height: 1px;
+                    width: 100%;
+                    background: #D9D9D9;
+                    display: block;
+                }
+        }
+        .bottom__side{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            p{
+                color: #FFF;
+            }
+            a{
+                color: #9166F0;
+            }
+            p{
+                color: #fff;
+                span{
+                    color: #9166F0;
+                }
+            }
+        }
+    }
+}
